@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import cx from 'classnames'
 
-export default class CurrenyInput extends Component {
+export default class CurrecnyInput extends Component {
 
   constructor(props) {
     super(props)
@@ -29,7 +29,7 @@ export default class CurrenyInput extends Component {
   }
 }
 
-CurrenyInput.propTypes = {
+CurrecnyInput.propTypes = {
   currencyAmount: React.PropTypes.oneOfType([
     React.PropTypes.string,
     React.PropTypes.number,

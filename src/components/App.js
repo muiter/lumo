@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Motion, spring, stiffness, damping } from 'react-motion'
 
-import CurrenyInput from './components/CurrenyInput'
+import CurrecnyInput from './components/CurrecnyInput'
 
 const App = React.createClass({
 
@@ -118,14 +118,14 @@ const App = React.createClass({
     return (
       <div className="app">
         {this._helpfulHint()}
-        <CurrenyInput
+        <CurrecnyInput
           currencyAmount={this.state.USD_total}
           currencyName="USD"
           currencySymbol="&#36;"
           onChange={this._onChange}
         />
         {this._baseCurrencyArrow()}
-        <CurrenyInput
+        <CurrecnyInput
           currencyAmount={this.state.EUR_total}
           currencyName="EUR"
           currencySymbol="&euro;"
